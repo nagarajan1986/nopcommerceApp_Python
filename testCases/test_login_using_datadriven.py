@@ -23,8 +23,7 @@ class TestLogin:  # class should be sentence case only
 
     lst_status=[]               #empty variable
 
-
-
+    @pytest.mark.regression
     def test_login(self):
         self.logger.info("***************Verifying LoginTest Using DataDriven***************")
         self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
