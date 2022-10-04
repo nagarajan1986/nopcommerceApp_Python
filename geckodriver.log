@@ -1,0 +1,38 @@
+1664855820874	geckodriver	INFO	Listening on 127.0.0.1:58101
+1664855823968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58102" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileqSp7ib"
+1664855828283	Marionette	INFO	Marionette enabled
+1664855828300	Marionette	INFO	Listening on port 58114
+Read port: 58114
+WebDriver BiDi listening on ws://127.0.0.1:58102
+1664855829481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileqSp7ib\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58102/devtools/browser/eb6d436a-4c28-4186-915c-debf49274be9
+1664856165089	Marionette	INFO	Stopped listening on port 58114
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+gram Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58181" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileqoAeYM"
+1664855962885	Marionette	INFO	Marionette enabled
+1664855962894	Marionette	INFO	Listening on port 58200
+Read port: 58200
+WebDriver BiDi listening on ws://127.0.0.1:58181
+1664855963333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileqoAeYM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58181/devtools/browser/f8721630-7c67-45c0-ba05-a89f80fcf9b2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1664855978602	Marionette	INFO	Stopped listening on port 58200
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 316: NS_ERROR_ABORT: SearchService initialization failed
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 380))
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 905: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
