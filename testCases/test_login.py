@@ -27,6 +27,7 @@ class TestLogin:            #class should be sentence case only
     logger = LogGen.loggen()
 
 
+    @pytest.mark.regression
     def test_homePageTitle(self,setup):           #function naming should start with test or end with test to run in pytest
         self.logger.info("***************TC_001_HomePage***************")
         self.logger.info("***************Verify HomepageTitle***************")
@@ -47,6 +48,7 @@ class TestLogin:            #class should be sentence case only
             self.driver.close()
             assert False
 
+    @pytest.mark.regression
     def test_login(self,setup):
         self.logger.info("***************TC_002_LoginPage***************")
         self.logger.info("***************Verify LoginPage***************")
